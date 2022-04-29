@@ -1,0 +1,63 @@
+
+.bg-black{
+    background-color: #000;
+}
+/* Logo */
+
+/* .logo{
+    font-size: ;
+} */
+
+/* Buscador del navbar */
+.nav-search{
+    background: #fff;
+    color: #000;
+    border-bottom:2px solid #000;
+    border-top: 2px solid #000;
+    border-right: 0 solid #000;
+    border-left: 2px solid #000;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    width:280px;
+    height: 35px;
+    padding-left: 15px;
+}
+.nav-search:focus{
+    outline: none;
+}
+.nav-search-icon{
+    background: #fff;
+    color: #000;
+    border-bottom: 2px solid #000;
+    border-top: 2px solid #000;
+    border-right: 2px solid #000;
+    border-left: 0px solid #fff;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    height:35px;
+}
+
+/* Cards */
+.cards{
+    text-decoration: none;
+    color:#000;
+}
+.cards:hover{
+    color: #000;
+}
+
+/* Media para que desaparesca el buscador en un determinado tamaño */
+@media all and (min-width:768px){ 
+    .nav-search{
+        width:300px;
+    }
+}
+@media all and (min-width:992px){ 
+    .nav-search{
+        width:450px;
+    }
+}
