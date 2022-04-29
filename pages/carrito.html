@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="author"
+      content="Francisco Andrade, Vale Ormaechea, Carlos Escobar"
+    />
+    <meta name="description" content="Venta de bebidas alcoholicas" />
+    <meta
+      name="keywords"
+      content="+18,cerveza,licor,whisky,bebidas,mojitos,tekila,ron"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/db30d1a3bd.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>THEdrunken</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-black py-3">
+        <div class="container">
+          <a class="navbar-brand logo" href="#">THEdrunken</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#contenidoNav"
+            aria-controls="contenidoNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="contenidoNav">
+            <form
+              class="d-flex justify-content-center ms-auto mt-4 mb-3 my-lg-2"
+            >
+              <input
+                class="nav-search"
+                type="search"
+                placeholder="Buscá tu bebida favorita"
+                aria-label="Search"
+                required
+                minlength="2"
+              />
+              <button class="nav-search-icon" type="submit">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+            </form>
+            <ul class="navbar-nav ms-auto me-0 mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Acerca de</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Catalogo
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li>
+                    <a class="dropdown-item" href="pages/cervezas.html"
+                      >Cervezas</a
+                    >
+                  </li>
+                  <li><a class="dropdown-item" href="#">Vinos</a></li>
+                </ul>
+              </li>
+              <li class="nav-item row">
+                <div class="col-10 col-md-11 col-lg-10 pe-0">
+                  <a class="nav-link pe-0" href="#">Iniciar Sesion</a>
+                </div>
+                <div class="col-2 col-md-1 col-lg-2 text-center">
+                  <a class="nav-link ps-auto" href="#"
+                    ><i class="fa-solid fa-cart-shopping"></i
+                  ></a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="container">
+        <article class="py-3 px-5 my-3 rounded">
+          <h1 class="fs-2">Carrito</h1>
+          <hr />
+          <div class="row pt-3">
+            <div class="col-6 col-md-2">
+              <img
+                src="../img/detalle/cerveza_corona.jpg"
+                width="100%"
+                alt="detalle del producto"
+              />
+            </div>
+            <div class="col-6 col-md-10 row ">
+              <div class="col-12 col-md-6 mt-md-2 ">
+                <p>
+                  <a href="#" class="text-dark text-decoration-none fs-md-5"
+                    >Cerveza rubia Corona 1lt.</a
+                  >
+                </p>
+              </div>
+              <div class="col-12 col-md-2">
+                <select
+                  class="form-select"
+                  id="entradaCantidad"
+                  aria-label="Example select with button addon"
+                >
+                  <option selected>1</option>
+                  <option value="1">2</option>
+                  <option value="2">3</option>
+                  <option value="3">4</option>
+                </select>
+              </div>
+              <div class="mt-3 mt-md-2 col-12 col-md-2">
+                <p class="text-md-center">
+                  <a href="#" class="text-dark text-decoration-none fs-md-5"
+                    >$250</a
+                  >
+                </p>
+              </div>
+              <div class="mt-3 mt-md-2 col-12 col-md-2 ">
+                      <p class="text-md-center">
+                        <a href="#" class="text-decoration-none ">Eliminar</a>
+                      </p>
+                  </div>
+              </div>
+            </div>
+            <hr class="mt-4" />
+          </div>
+          <div class="row pt-3">
+            <div class="col-6 col-md-2">
+              <img
+                src="../img/detalle/cerveza_andes.jpg"
+                width="100%"
+                alt="detalle del producto"
+              />
+            </div>
+            <div class="col-6 col-md-10 row ">
+              <div class="col-12 col-md-6 mt-md-2 ">
+                <p>
+                  <a href="#" class="text-dark text-decoration-none fs-md-5"
+                    >Cerveza rubia Corona 1lt.</a
+                  >
+                </p>
+              </div>
+              <div class="col-12 col-md-2">
+                <select
+                  class="form-select"
+                  id="entradaCantidad"
+                  aria-label="Example select with button addon"
+                >
+                  <option selected>1</option>
+                  <option value="1">2</option>
+                  <option value="2">3</option>
+                  <option value="3">4</option>
+                </select>
+              </div>
+              <div class="mt-3 mt-md-2 col-12 col-md-2">
+                <p class="text-md-center">
+                  <a href="#" class="text-dark text-decoration-none fs-md-5"
+                    >$250</a
+                  >
+                </p>
+              </div>
+              <div class="mt-3 mt-md-2 col-12 col-md-2 ">
+                      <p class="text-md-center">
+                        <a href="#" class="text-decoration-none ">Eliminar</a>
+                      </p>
+                  </div>
+              </div>
+            </div>
+            <hr class="mt-4" />
+          </div>
+          <div class="row pt-3">
+            <div class="col-6 col-md-2">
+              <img
+                src="../img/detalle/cerveza_isenbeck.jpg"
+                width="100%"
+                alt="detalle del producto"
+              />
+            </div>
+            <div class="col-6 col-md-10 row ">
+              <div class="col-12 col-md-6 mt-md-2 ">
+                <p>
+                  <a href="#" class="text-dark text-decoration-none fs-md-5"
+                    >Cerveza rubia Corona 1lt.</a
+                  >
+                </p>
+              </div>
+              <div class="col-12 col-md-2">
+                <select
+                  class="form-select"
+                  id="entradaCantidad"
+                  aria-label="Example select with button addon"
+                >
+                  <option selected>1</option>
+                  <option value="1">2</option>
+                  <option value="2">3</option>
+                  <option value="3">4</option>
+                </select>
+              </div>
+              <div class="mt-3 mt-md-2 col-12 col-md-2">
+                <p class="text-md-center">
+                  <a href="#" class="text-dark text-decoration-none fs-md-5"
+                    >$250</a
+                  >
+                </p>
+              </div>
+              <div class="mt-3 mt-md-2 col-12 col-md-2 ">
+                      <p class="text-md-center">
+                        <a href="#" class="text-decoration-none ">Eliminar</a>
+                      </p>
+                  </div>
+              </div>
+            </div>
+            <hr class="mt-4" />
+          </div>
+
+          <div class="d-flex justify-content-end">
+            <button class="btn btn-primary my-2" type="submit">
+              Finalizar Compra
+            </button>
+          </div>
+        </article>
+      </section>
+    </main>
+    <footer>
+      <div class="py-3 bg-light">
+        <div class="container">
+          <div class="justify-content-between row text-center text-md-start">
+            <div class="col-12 col-md-12 col-lg-4 py-4 logo">
+              <h5>THEdrunken</h5>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <h6 class="pt-5 pt-md-4">Sigamos Conectados</h6>
+              <div class="my-3">
+                <a href="#"
+                  ><i class="fa-brands fa-facebook text-secondary fs-4 mx-1"></i
+                ></a>
+                <a href="#"
+                  ><i
+                    class="fa-brands fa-instagram text-secondary fs-4 mx-1"
+                  ></i
+                ></a>
+                <a href="#"
+                  ><i class="fa-brands fa-whatsapp text-secondary fs-4 mx-1"></i
+                ></a>
+                <a href="#"
+                  ><i class="fa-brands fa-telegram text-secondary fs-4 mx-1"></i
+                ></a>
+                <h6 class="pt-5 pt-md-4">Formas de Pago</h6>
+              </div>
+              <div>
+                <img
+                  src="../img/pagos/pagos.webp"
+                  width="70%"
+                  alt="tipos de pagos"
+                />
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <h6 class="pt-5 pt-md-4">Nosotros</h6>
+              <p class="my-1 fs-6">
+                <a class="text-dark text-decoration-none" href="#"
+                  >Formas de pago</a
+                >
+              </p>
+              <p class="my-1 fs-6">
+                <a class="text-dark text-decoration-none" href="#"
+                  >Tiempos y formas de entrega</a
+                >
+              </p>
+              <p class="my-1 fs-6">
+                <a class="text-dark text-decoration-none" href="#"
+                  >Quienes somos</a
+                >
+              </p>
+              <p class="my-1 fs-6">
+                <a class="text-dark text-decoration-none" href="#"
+                  >Sucursales</a
+                >
+              </p>
+              <p class="my-1 fs-6">
+                <a class="text-dark text-decoration-none" href="#"
+                  >Devoluciones</a
+                >
+              </p>
+              <div>
+                <img
+                  class="py-3 img-fluid"
+                  src="../img/DATAWEB.jpg"
+                  width="18%"
+                  alt="datos fiscales"
+                />
+              </div>
+            </div>
+          </div>
+          <p class="text-center mt-5">
+            THEdrunken &copy; 2022. Todos los derechos reservados
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script src="../js/bootstrap.min.js"></script>
+  </body>
+</html>
