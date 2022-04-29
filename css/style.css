@@ -6,6 +6,13 @@
 .bg-cuerpo{
     background-color: #eeeeee;
 }
+
+.bg-button{
+    background-color: #f82d30;
+}
+.links{
+    color: #f82d30;
+}
 /* Logo */
 
 /* .logo{
