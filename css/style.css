@@ -53,11 +53,24 @@
 /* Media para que desaparesca el buscador en un determinado tamaño */
 @media all and (min-width:768px){ 
     .nav-search{
-        width:300px;
+        width:400px;
     }
 }
-@media all and (min-width:992px){ 
+@media all and (min-width:1024px){ 
+    .nav-search{
+        width:330px;
+    }
+}
+@media all and (min-width:1400px){ 
     .nav-search{
         width:450px;
+    }
+}
+@media all and (min-width:0px) and (max-width:281px){ 
+    .nav-search{
+        display: none;
+    }
+    .nav-search-icon{
+        display: none;
     }
 }
